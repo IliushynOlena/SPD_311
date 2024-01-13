@@ -116,42 +116,54 @@
 #     total = kg * price_2
 # total = math.ceil(total)
 # print(f"You have to pay : {total} coins. ")
-day = int(input("Enter day : "))
-if day == 1:
-    print("Monday")
-elif day == 2:
-    print("Tuesday")
-elif day == 3:
-    print("Wednesday")
-elif day == 4:
-    print("Thursday")
-elif day == 5:
-    print("Friday")
-elif day == 6:
-    print("Saturday")
-elif day == 7:
-    print("Sunday")
-else :
-    print("Error day")
-# if vs match
-day = int(input("Enter day : "))#key 7
-#key = input("Enter day : ")
-match day:
-    case 1:
-        print("Monday")
-    case 2:
-        print("Tuesday")
-    case 3:
-        print("Wednesday")
-    case 4:
-        print("Thursday")
-    case 5:
-        print("Friday")
-    case 6:
-        print("Saturday")
-    case 7:
-        print("Sunday")
-    case _:
-        print("Error day")
+# day = int(input("Enter day : "))
+# if day == 1:
+#     print("Monday")
+# elif day == 2:
+#     print("Tuesday")
+# elif day == 3:
+#     print("Wednesday")
+# elif day == 4:
+#     print("Thursday")
+# elif day == 5:
+#     print("Friday")
+# elif day == 6:
+#     print("Saturday")
+# elif day == 7:
+#     print("Sunday")
+# else :
+#     print("Error day")
+# # if vs match
+# day = int(input("Enter day : "))#key 7
+# #key = input("Enter day : ")
+# match day:
+#     case 1:
+#         print("Monday")
+#     case 2:
+#         print("Tuesday")
+#     case 3:
+#         print("Wednesday")
+#     case 4:
+#         print("Thursday")
+#     case 5:
+#         print("Friday")
+#     case 6:
+#         print("Saturday")
+#     case 7:
+#         print("Sunday")
+#     case _:
+#         print("Error day")
+        
+# 277
+# a = 2 # 277//100 = 2
+# b = 7 # 277//10%10 = 7
+# c = 7 #277 %10 = 7
+
+# 1500/4 = 475
+
+# 12321
+
+
+
 
         
