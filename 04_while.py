@@ -1,10 +1,10 @@
 
 
 
-# i = 0
-# while i < 10:
-#     i+=1
-#     print(i , "Hello world")
+i = 0
+while i < 10:
+    i+=1
+    print(i , "Hello world")
 
 # i = int(input("Enter number : "))  
 # if i <= 20:
@@ -17,7 +17,18 @@
 #         i-=1
     
     
-
+# print(" "*0, "*"*9," "*0)
+# print(" "*1, "*"*7," "*1)
+# print(" "*2, "*"*5," "*2)
+# print(" "*3, "*"*3," "*3)
+# print(" "*4, "*"*1," "*4)
+# for i in range(10):
+#     for j in range(10):
+#         if i >= j:
+#             print('*',end=" ")
+#         else:
+#             print(' ',end=" ")
+#     print()
 
     
 #10 9 8 7 6 5 4 3 2 1 0
@@ -37,11 +48,11 @@
 #     else:
 #         print("="*15)
         
-a = 5
-b = 7
-print(a, " ", b)
+# a = 5
+# b = 7
+# print(a, " ", b)
 # temp = a
 # a = b
 # b = temp
-a,b=b,a
-print(a, " ", b)
+# a,b=b,a
+# print(a, " ", b)
