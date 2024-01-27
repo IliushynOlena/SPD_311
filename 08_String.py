@@ -1,9 +1,9 @@
 
-# test = "Hello"
-# print(id(test))
-# test += "!!!"
-# print(id(test))
-# print(len(test))
+test = "Hello"
+print(id(test))
+test += "!!!"
+print(id(test))
+print(len(test))
 
 # line_1 = "Lorem ipsum dolor \"Python\" "
 # line_2 = 'I love \n\t"Python"'
@@ -100,20 +100,20 @@
 # b = 33
 # print(" A = {0:-} . B = {1:-}".format(a,b))
 # print(" A = {0:+} . B = {1:+}".format(a,b))
-# points = 12.2
-# print(f"You have {points:<10.2f} points ")
-# print(f"You have {points:>10.2f} points ")
-# print(f"You have {points:^10.2f} points ")
+points = 12.2
+print(f"You have {points:<10.2f} points ")
+print(f"You have {points:>10.2f} points ")
+print(f"You have {points:^10.2f} points ")
 
-for i in range(126):
-    print(i, "--> ", chr(i), end="\t")
-    # if i%7 == 0:
-    #     print()
-print(chr(65))
-print(chr(90))
-print(chr(9556), end="")
-for i in range(20):
-    print(chr(9552 ), end="")
-print(chr(9559 ))
+# for i in range(126):
+#     print(i, "--> ", chr(i), end="\t")
+#     # if i%7 == 0:
+#     #     print()
+# print(chr(65))
+# print(chr(90))
+# print(chr(9556), end="")
+# for i in range(20):
+#     print(chr(9552 ), end="")
+# print(chr(9559 ))
 
 
