@@ -1,5 +1,6 @@
 
 
+
 def show(color):
     print(color)
 def summa(a,b):
@@ -31,6 +32,7 @@ print(numbers)
 #     return x+1
 # def decrement(x):
 #     return x-1
+numbers = [20,10,8,9,6,3,11,4]
 #res = list (map(double, numbers))
 res = list (map(lambda x:x*2, numbers))
 print(res)
