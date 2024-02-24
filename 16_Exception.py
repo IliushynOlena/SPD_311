@@ -41,3 +41,5 @@ try:
     print(colors[index])
 except IndexError:
     print("Index was out of range")
+    
+print("Continue")

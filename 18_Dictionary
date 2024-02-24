@@ -1,0 +1,86 @@
+# lines = [2,5,'Hello',[2,3,6]]
+# user1 = ["Name","Surname",25,"38975545454"]
+
+# #fields in user
+# #login password nick email phone age
+# #dictionary : key - value
+# #key : number or str
+# student = {
+#     'name':'Stas', 
+#     'surname':'Bondar',
+#     'rating':11.2, 
+#     'group':'SPD311',
+#     'birthday':'15.07.2000'
+#     }
+# print(student['name'])
+# print(student['surname'])
+# print(student['group'])
+
+# for key in student.keys():
+#     #print(f"Key : {key:<10} . Value {student[key]}")
+#     print(f" {key:<10}  {student[key]}")
+    
+
+# for value in student.values():
+#     #print(f"Key : {key:<10} . Value {student[key]}")
+#     print(f" {value:<10} ")
+    
+# for key, value in student.items():
+#     print(f" {key:<10}  {value}")
+    
+# print(student.keys())
+# print(student.values())
+# print(student.items())
+# print(student)
+# del student['rating']
+# print(student)
+# print(student.popitem())
+# print(student)
+# student.pop('surname')
+# print(student)
+# student['email'] = 'stas@gmail.com'
+# print(student)
+
+# student = {'name':'Stas', 'surname':'Bondar','rating':11.2,'group':'SPD311', 'birthday':'15.07.2000' }
+# students = [
+#     {'name':'Stas', 'surname':'Bondar','rating':11.2,'group':'SPD311', 'birthday':'15.07.2000' },
+#     {'name':'Olena', 'surname':'Bondar','rating':6.7,'group':'SPD311', 'birthday':'15.07.2005' },
+#     {'name':'Olga', 'surname':'Bondar','rating':8,'group':'SPD311', 'birthday':'15.07.2005' },
+#     {'name':'Petro', 'surname':'Bondar','rating':9,'group':'SPD311', 'birthday':'15.07.2003' },
+#     {'name':'Bob', 'surname':'Bondar','rating':4.6,'group':'SPD311', 'birthday':'15.07.2008',
+#      'marks':[10,12,5,7,4] }
+# ]
+# print(students[1]['name'])
+# print(students[4][ 'marks'][1])
+# for mark in students[4][ 'marks']:
+#     print(mark,end=" ")
+
+student = {
+    'name':'Stas', 
+    'surname':'Bondar',
+    'rating':11.2, 
+    'group':'SPD311',
+    'birthday':'15.07.2000'
+    }
+import json
+with open('users.txt','w') as file:
+    file.write(json.dumps(student))
+
+print(type(student))
+print(student)
+
+studentJSON = json.dumps(student)#serialization
+print(type(studentJSON))
+print(student)
+
+new_student = json.loads(studentJSON)
+print(type(new_student))
+print(new_student)
+print(new_student['name'])
+
+with open('users.txt','r') as file:
+    info = file.read()
+    print(info)
+    info = json.loads(info)
+    print(info['name'])
+    print(type(info))
